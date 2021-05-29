@@ -6,6 +6,7 @@ var getPlayerName= function() {
   console.log("Your robot's name is " + name);
   return name;
 };
+
 var playerInfo = {
   name: getPlayerName(),
   health: 100,
